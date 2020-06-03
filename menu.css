@@ -1,0 +1,40 @@
+.table{
+    display: table;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.486);
+    border: black solid 20px;
+    text-transform: uppercase;
+}
+
+.tablerow{
+    display: table-row;
+}
+
+.tablerow p{
+    display: table-cell;
+    border-bottom: 10px solid rgb(148, 86, 25);
+}
+
+.drink{
+    padding: 12px;
+}
+.drink_link, .price{
+    background: white;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price{
+    padding-right: 5px;
+}
+
+.price_link{
+    background: white;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
